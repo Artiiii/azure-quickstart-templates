@@ -25,8 +25,8 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat('artistore', uniquestring(resourceGroup().id))]"
-    "storageAccountType": "[([parameters('storageAccountType')]"
+    "storageAccountName": "[concat('artistore', uniquestring(resourceGroup().id))]",
+    "storageAccountType": "[parameters('storageAccountType')]"
   },
   "resources": [
     {
